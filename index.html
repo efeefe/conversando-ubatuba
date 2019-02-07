@@ -1,0 +1,199 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>Conversa Ubatuba - Tutorial</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/beige.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				
+				<section id="inicio">
+					<a href="https://conversa.ubatuba.cc"><img src="images/logo-conversa.png"><br />
+					<p><a href="https://conversa.ubatuba.cc">Conversa Ubatuba</a> é um portal colaborativo, aberto e gratuito, para conversas e projetos de Ubatuba e região.</p>
+					<p><em>Clique nas setas à direita desta tela para navegar na apresentação. Para ter uma visão geral dela, clique "ESC" no seu teclado.</em></p>
+
+				</section>
+				<section>
+					<section id="quem-criou">
+							<h2>Quem criou?</h2>
+							Conversa Ubatuba foi concebido e configurado por <a href="http://efeefe.me">Felipe Fonseca</a> e <a href="https://bernardodiasdacruz.com">Bernardo Dias da Cruz</a>, e está instalado em um servidor independente financiado com recursos particulares. Não existe nenhuma empresa, partido, igreja ou qualquer interesse escuso por trás da plataforma. Somente o desejo, também cristalizado em outras <a href="#redes">redes</a> daqui: de fortalecer laços e possibilitar conversas <em>civilizadas, diversas, participativas e criativas</em>.
+					</section>
+					<section id="redes">
+						<h2>Redes</h2>
+						<p>O portal foi criado no <a href="http://ninho.ubatuba.cc">ninho</a>, em diálogo com a plataforma colaborativa <a href="http://inc.ubalab.org">inc.ubalab</a>.</p>
+						<a href="http://ninho.ubatuba.cc"><img align="left" src="images/logo-ninho.png" height="150"></a>
+						<a href="http://inc.ubalab.org"><img align="right" src="images/logo-inc.png" height="150"></a>
+					</section>
+					<section id="moderadores">
+							<h2>Quem ajuda?</h2>
+							<p> O sistema também conta com moderadores voluntários. Você pode ver quem são essas pessoas, a qualquer momento, <a href="https://conversa.ubatuba.cc/about">nesta página</a>.</p>
+					</section>				
+				</section>
+				<section>
+						<section id="motivacao">
+							<h2>Por quê?</h2>
+							<p>A principal motivação para a criação e o desenvolvimento do Conversa Ubatuba é possibilitar que <strong>conversas importantes para a cidade não fiquem restritas a plataformas fechadas e opacas</strong> como Facebook, Whatsapp e similares.</p>
+							<p>Clique <a href="#problemas">aqui</a> para saber por que elas são problemáticas.</p>
+						</section>
+						<section id="problemas" style="font-size: 0.8em; text-align: left;">
+							<p>Alguns problemas de utilizar plataformas fechadas para assuntos importantes:</p>
+							<ul>
+								<li>
+									É muito difícil acessar o histórico das mensagens. Ou seja, se você quiser encontrar uma postagem sua feita em outubro de 2016, por exemplo, não tem nenhuma maneira fácil de procurar por ela.
+								</li>
+								<li>
+									Ninguém garante que essas ferramentas fechadas vão durar para sempre. Elas dependem de modelos de negócios que podem se tornar obsoletos, e não têm nenhum compromisso com a manutenção dos dados de usuários uma vez que venham a falir. Pra falar a verdade, eles podem até mesmo continuar existindo, mas simplesmente proibir que os usuários tenham acesso aos dados que eles mesmos criaram.
+								</li>
+							</ul>
+							<p>Clique <a href="#vigilancia">aqui</a> para entender mais sobre esses problemas, ou <a href="#tecnologias-livres">continue</a> a apresentação para saber o que estamos construindo.
+						</section>
+						<section id="vigilancia" style="font-size: 0.8em;">
+							<h2>Vigilância</h2>
+							<p>Tem muita gente pesquisando as espinhosas questões ligadas a privacidade, acesso a informação e vigilância. Para saber mais sobre o assunto, veja por exemplo esta <a href="https://www.vice.com/pt_br/article/59jyyk/dados-google-facebook" target="_blank">matéria na Vice sobre os dados que o Google e o Facebook coletam de seus usuários</a>. Acompanhe também as atividades da <a href="http://lavits.org/">LAVITS</a>, a rede latino-americana de estudos sobre vigilância, tecnologia e sociedade.</p>
+							<p>Se quiser continuar neste assunto, <a href="#sem-censura">assista a um vídeo</a> com a professora Fernanda Bruno falando sobre os problemas dos dados pessoais nas redes sociais.</p>
+						</section>
+						<section id="sem-censura">
+							<h2>Sem Censura - TV Brasil</h2>
+							<iframe width="640" height="480" src="https://www.youtube.com/embed/I0Kygzn0Xr8?start=605" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+						</section>
+				</section>
+				<section>
+						<section id="tecnologias-livres">
+							<h2>Tecnologias Livres</h2>
+							Conversa Ubatuba utiliza <a href="#discourse">tecnologias livres e de código aberto</a> para proporcionar uma plataforma colaborativa, aberta e autônoma.
+						</section>
+						<section id="discourse">
+							<h2>Discourse</h2>
+							Ele foi criado com o <a href="https://discourse.org" target="_blank">Discourse</a>, um sistema desenvolvido com a missão expressa de possibilitar <em>conversas civilizadas</em> entre pessoas.<br />
+							<a href="https://discourse.org"><img src="images/00-discourse.png" width="400"></a>
+						</section>
+						<section id="github">
+							<h2>Código-fonte</h2>
+							Como é de praxe nos softwares de código aberto, o Discourse pode ser livremente instalado, inspecionado, modificado, expandido e redistribuído. Os códigos-fonte estão <a href="https://github.com/discourse/">disponíveis no GitHub</a>.
+							<a href="https://github.com/discourse/"><img src="images/00-discourse-github.png" width="400"></a>
+						</section>
+						<section id="resiliencia">
+							<h2>Resiliência</h2>
+							Uma vez que o portal Conversa Ubatuba é mantido por <a href="#quem-criou">pessoas com conhecimento técnico e engajadas com o desenvolvimento de iniciativas inovadoras</a> em Ubatuba, ele é concretamente mais autônomo e seguro do que qualquer plataforma corporativa estrangeira.</p> 
+							<p>Se você tem dúvidas sobre isso, fique à vontade para postar um tópico <a href="https://conversa.ubatuba.cc/c/conversas-gerais/sobre-este-site">sobre o site</a>, e ficaremos felizes em dialogar e aprofundar o assunto.</p>
+						</section>
+				</section>
+				<section>
+					<h2>Vamos entrar na Conversa?</h2>
+					<a href="https://conversa.ubatuba.cc"><img src="images/00-home.png"></a>
+					Acesse o portal no endereço <a href="https://conversa.ubatuba.cc" target="_blank">conversa.ubatuba.cc</a>.
+				</section>
+				<section id="cadastro">
+					<section style="font-size: 0.7em; text-align: left;">
+						<h3>Registre-se</h3>
+						<img src="images/00-clicar-cadastro.png"><br />
+						<p>A primeira coisa a fazer é <strong>registrar-se</strong> no portal Conversa Ubatuba. Clique no botão correspondente no topo da página inicial.</p>
+						<p>Aqui você tem duas opções:</p>
+						<ul>
+							<li>Cadastrar-se <a href="#email">com seu e-mail</a></li>
+							<li>Usar uma <a href="#rede-social">conta em rede social</a> para se identificar na plataforma</li>
+						</ul>
+						<p>Se já tem cadastro no portal, <a href="#entrada">vamos entrar</a> e conhecê-lo melhor.</p>
+					</section>
+					<section id="email" style="font-size: 0.6em;">
+							<img src="images/04-criar-conta-email.png" align="right">
+							<p align="right">Para criar uma conta diretamente com seu email:</p>
+							<p align="right">Insira seu endereço de e-mail, escolha um nome de usuário (nickname), seu nome e uma senha segura (ao menos 8 caracteres, misturando letras e números).</p>
+							<p align="right">Clique em <strong>"Criar nova conta".</strong></p>
+					</section>
+					<section>
+							<p><em>Você receberá uma mensagem por e-mail com um link para confirmar seu cadastro. Se você não abrir esta mensagem e clicar no link, o cadastro <strong>não estará completo</strong> e você não vai poder participar das conversas no portal.</em></p>
+					</section>
+					<section id="rede-social" style="font-size: 0.6em;">
+							<img src="images/03-criar-conta-rede.png" align="left"><br />
+							<p align="left">Se você preferir, pode se registrar usando alguma rede social em que já tenha cadastro. O portal está integrado com Facebook, Google e GitHub para autenticação. Após clicar no botão correspondente, <strong>clique em autorizar</strong> na janela de confirmação. Em seguida, você retornará à tela de cadastro, já com alguns campos preenchidos pela rede social. Clique em "Criar nova conta" e já pode entrar no sistema.</p>
+					</section>
+				</section>
+				<section id="entrada" style="font-size: 0.7em; text-align: left; ">
+					<h3>Pode entrar!</h3>
+					<img src="images/entrada.gif" width="400" align="right">
+					<p>No seu primeiro acesso, o sistema avisa que você recebeu uma mensagem. Clique no botão indicado para receber a mensagem do <em>roboconversador</em>.</p> 
+					<p>Interaja um pouco com ele. Aos poucos, o robô vai ensinar-lhe o funcionamento básico das ferramentas do portal.</p>
+					<p>Se você já dispensou ou excluiu a primeira mensagem do Robô, não tem problema. Acesse o <a href="https://conversa.ubatuba.cc/u/roboconversador">perfil dele</a> e clique em "Mensagem" para começar outra conversa.
+				</section>
+				<section style="font-size: 0.6em; text-align: left;">
+					<h3>Página inicial</h3>
+					<img src="images/09-visao-geral.png" align="right" width="500">
+					<p>Agora vamos dar uma olhada na página inicial.</p>
+					<p>Você pode ver que existem duas colunas. A coluna da esquerda lista as categorias de conversas. Veja que abaixo de cada categoria existem também subcategorias.</p> 
+					<p>Por exemplo, dentro da categoria <strong>Agenda Ubatuba</strong> existem as subcategorias <strong>Participação e Sociedade</strong>, <strong>Cursos e Oficinas</strong> e <strong>Cultura e Entretenimento</strong>. Você pode entender cada categoria geral como um prédio, e cada subcategoria como uma sala dentro de um prédio.</p>
+				</section>
+				<section>
+					<section style="font-size: 0.5em; text-align: left;">
+						<h3>Tópico</h3>
+						<img src="images/10-apresentar.png" align="left" width="640">
+						<p>Vamos então prestar atenção em uma conversa em particular, ou um <em>tópico</em> para usar o termo utilizado no portal. Este aqui é um bom começo: <a href="https://conversa.ubatuba.cc/t/vamos-nos-apresentar/21" target="_blank">Vamos nos apresentar?</a> Foi proposto por um dos fundadores do site, Felipe Fonseca, para que os usuários do site possam apresentar-se uns para os outros.</p>
+						<p><a href="#contexto-info">Veja mais informações</a>, ou veja <a href="#responder">como responder a uma conversa</a>.
+					</section>
+					<section style="font-size: 0.5em; text-align: left;" id="contexto-info">
+						<h3>Contexto e informações</h3>
+						<img src="images/10-apresentar.png" align="left" width="640">
+						<p>Preste atenção nas informações que são exibidas aqui na parte superior da tela: o tópico faz parte da subcategoria "Conversas Gerais" dentro da categoria "Sobre este site". Ela foi criada em outubro de 2018. Desde então até o dia em que esta imagem foi feita, ela já teve 23 respostas, de 20 usuários. Ela teve ainda 267 visualizações e 115 curtidas, e ao longo desse tempo 18 links foram compartilhados no tópico.</p>
+					</section>
+					<section style="font-size: 0.5em; text-align: left;">
+						<h3>Navegação</h3>
+						<img src="images/10-apresentar.png" align="left" width="640">
+						<p>A barra no lado direito da tela permite percorrer facilmente toda a conversa.</p>
+					</section>
+				</section>
+				<section>
+					<section id="responder" style="text-align: left; font-size: 0.6em" >
+						<h3>Como responder a uma conversa</h3>
+						<img src="images/11-botao-responder.png" align="left" width="640">
+						Após a resposta mais recente a qualquer tópico, sempre existe um botão "Responder". Clique no botão e você poderá inserir a sua própria resposta ao tópico. Utilize os recursos que <a href="#entrada">o Robô lhe ensinou</a>: formatação de textos, inserir links, mencionar usuários, exibir imagens, e por aí vai.
+						<p>
+					</section>
+					<section>
+						<h3>Respondendo...</h3>
+						<video data-autoplay src="images/11-apresentar.mp4"></video>
+					</section>
+				</section>
+				<section>
+					<h2>Vem puxar conversa!</h2>
+					<p>Esta foi uma breve introdução ao portal Conversa Ubatuba. Esperamos que tenha entendido e gostado. Aguardamos você para <a href="https://conversa.ubatuba.cc">continuar a conversa no site</a>.</p>
+					<a href="https://conversa.ubatuba.cc"><img src="images/logo-conversa.png"><br />						
+				</section>
+			</div>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info about config & dependencies:
+			// - https://github.com/hakimel/reveal.js#configuration
+			// - https://github.com/hakimel/reveal.js#dependencies
+			Reveal.initialize({
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>
